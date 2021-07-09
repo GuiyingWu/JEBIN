@@ -6,7 +6,7 @@ This is the JEBIN algorithm developed for learning the consensus representations
 
 
 ## Install
-Before running JEBIN on Linux system, packages [GSL] (https://www.gnu.org/software/gsl/)  and [Eigen] (http://eigen.tuxfamily.org/index.php?title=Main_Page) are required to be installed.
+Before running JEBIN on Linux system, packages [GSL] (https://www.gnu.org/software/gsl/)  and [Eigen] (http://eigen.tuxfamily.org/index.php?title=Main_Page) are required to be installed. Users must modify the package paths before using the makefile to compile the code.
 
 
 ## Usage
@@ -14,28 +14,28 @@ Before running JEBIN on Linux system, packages [GSL] (https://www.gnu.org/softwa
 ./JEBIN_linux -consensus_nodes_file consensus_nodes_list.txt -network_filenames_file network_filenames_list.txt -num_network 2 -output_directory output/ -binary 0 -size 200 -negative 5 -samples 200 -threads 10 -gamma 1 -rho 0.025
 ```
 
-- -consensus_nodes_file <file>
-                The consensus nodes set
-- -network_filenames_file <file>
-                All the bipartite network files' names (absolute paths)
-- -num_network <int>
-                the number of networks
-- -output_directory <file>
+- -consensus_nodes_file, 
+                The consensus gene set
+- -network_filenames_file, 
+                The file contains all the bipartite network files' names (using absolute paths)
+- -num_network, 
+                The number of networks
+- -output_directory, 
                 The output directory of all kinds of the nodes' vectors
-- -binary <int>
-                Save the resulting vectors in binary moded; default is 0 (off)
-- -size <int>
-                Set size of word vectors; default is 100
-- -negative <int>
-                Number of negative examples; default is 5, common values are 5 - 10 (0 = not used)
-- -samples <float>
-                Set the number of training samples as <float>Million; default is 1 million
-- -threads <int>
-                Use <int> threads (default 1)
-- -gamma <float>
-                Set the regularizing coefficient; default is 1.0
-- -rho <float>
-                Set the starting learning rate; default is 0.025
+- -binary, 
+                Save the resulting vectors in binary mode; default is 0 (off)
+- -size, 
+                The dimension of the embedding vectors; default is 200
+- -negative, 
+                The number of negative examples used in negative sampling; default is 5
+- -samples, 
+                The total number of training samples (*Million)
+- -threads, 
+                The total number of threads used; the default is 1
+- -gamma, 
+                The regularizing coefficient; the default is 1.0
+- -rho, 
+                The starting value of the learning rate; the default is 0.025
 
 
 
