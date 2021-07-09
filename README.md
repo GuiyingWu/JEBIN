@@ -15,27 +15,27 @@ Before running JEBIN on Linux system, packages [GSL] (https://www.gnu.org/softwa
 ```
 
 - -consensus_nodes_file: 
-                The consensus gene set
+                the consensus gene set
 - -network_filenames_file: 
-                The file contains all the bipartite network files' names (using absolute paths)
+                the file contains all the bipartite network filenames (using absolute paths)
 - -num_network: 
-                The number of networks
+                the number of networks
 - -output_directory: 
-                The output directory of all kinds of the nodes' vectors
+                the output directory of all kinds of the nodes' vectors
 - -binary: 
-                Save the resulting vectors in binary mode; default is 0 (off)
+                save the resulting vectors in binary mode; default is 0 (off)
 - -size: 
-                The dimension of the embedding vectors; default is 200
+                the dimension of the embedding vectors; default is 200
 - -negative: 
-                The number of negative examples used in negative sampling; default is 5
+                the number of negative examples used in negative sampling; default is 5
 - -samples: 
-                The total number of training samples (*Million)
+                the total number of training samples (*Million)
 - -threads: 
-                The total number of threads used; the default is 1
+                the total number of threads used; the default is 1
 - -gamma: 
-                The regularizing coefficient; the default is 1.0
+                the regularizing coefficient; the default is 1.0
 - -rho: 
-                The starting value of the learning rate; the default is 0.025
+                the starting value of the learning rate; the default is 0.025
 
 
 
