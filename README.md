@@ -6,7 +6,7 @@ This is the JEBIN algorithm developed for learning the consensus representations
 
 
 ## Install
-Before running JEBIN on Linux system, packages [GSL] (https://www.gnu.org/software/gsl/)  and [Eigen] (http://eigen.tuxfamily.org/index.php?title=Main_Page) are required to be installed. Users must modify the package paths before using the makefile to compile the code.
+Before running JEBIN on Linux system, packages [GSL](https://www.gnu.org/software/gsl/)  and [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) are required to be installed. Users must modify the package paths before using the makefile to compile the code.
 
 
 ## Usage
