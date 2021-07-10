@@ -83,7 +83,7 @@ Each bipartite network file contains the edges between genes (first column) and 
 ```
 
 #### /data
-The **/data** folder contains two examples of the input data. 
+The **/data** folder contains an example of the input data. 
 
 #### /scHCC
 The **/scHCC** folder contains the single-cell RNA-seq data of HCC (gene filtered), which is in "rds" format.
@@ -92,7 +92,7 @@ The **/scHCC** folder contains the single-cell RNA-seq data of HCC (gene filtere
 ## output
 
 #### /output
-The **/output** folder contains two examples of the output results of JEBIN.
+The **/output** folder contains an example of the output results of JEBIN.
 - "output_u_consensus.txt": the consensus representation vectors for genes across all networks.
 - "output_u_net1.txt": the dataset-specific representation vectors for genes in the first input network.
 - "output_v_net1.txt": the dataset-specific representation vectors for samples in the first input network.
