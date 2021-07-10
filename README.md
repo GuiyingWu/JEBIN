@@ -82,9 +82,9 @@ Each bipartite network file contains the edges between genes (first column) and 
 100	HCCDB-1.S16	7.6303
 ```
 
-The <data> folder contains three examples of the input data. 
+The "/data" folder contains three examples of the input data. 
 
-<scHCC> folder contains the single-cell RNA-seq data of HCC (gene filtered), which is in "rds" format.
+"/scHCC" folder contains the single-cell RNA-seq data of HCC (gene filtered), which is in "rds" format.
 
 
 ## Contact
