@@ -60,14 +60,14 @@ This file contains the union of genes of all the datasets to be integrated (Gene
 
 This file contains the absolute paths of all the bipartite network files with each constructed from one gene expression dataset. An example is shown below:
 ```
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset1_HCCDB1.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset2_HCCDB13.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset3_HCCDB15.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset4_HCCDB17.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset5_HCCDB18.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset6_HCCDB3.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset7_HCCDB4.txt
-/home/gywu/multiset/data/HCCDB/HCC/out_edgelist_Dataset8_HCCDB6.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset1_HCCDB1.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset2_HCCDB13.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset3_HCCDB15.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset4_HCCDB17.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset5_HCCDB18.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset6_HCCDB3.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset7_HCCDB4.txt
+/home/gywu/multiset/data/bulkHCC/edgelist_Dataset8_HCCDB6.txt
 ```
 
 Each bipartite network file contains the edges between genes (first column) and samples (second column), the last column is the normalized gene expression value. An example is shown below:
@@ -81,6 +81,10 @@ Each bipartite network file contains the edges between genes (first column) and 
 100	HCCDB-1.S14	8.5352
 100	HCCDB-1.S16	7.6303
 ```
+
+The <data> folder contains three examples of the input data. 
+
+<scHCC> folder contains the single-cell RNA-seq data of HCC (gene filtered), which is in "rds" format.
 
 
 ## Contact
