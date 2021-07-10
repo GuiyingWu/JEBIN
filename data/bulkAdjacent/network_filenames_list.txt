@@ -1,6 +1,0 @@
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset1_HCCDB1.txt
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset2_HCCDB12.txt
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset3_HCCDB13.txt
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset4_HCCDB17.txt
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset5_HCCDB3.txt
-/home/gywu/multiset/data/bulkAdjacent/edgelist_Dataset6_HCCDB6.txt
