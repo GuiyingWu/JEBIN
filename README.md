@@ -107,9 +107,10 @@ Guiying Wu (email: wuguiying_start@163.com)
 
 ## Citation
 ```
-@article{wu2020new,
-title={New gene association measures by joint network embedding of multiple gene expression datasets},
-author={Wu, Guiying and Li, Xiangyu and Guo, Wenbo and Wei, Zheng and Hu, Tao and Gu, Jin},
-journal={bioRxiv},
-year={2020}}
+@article{wu2022jebin,
+  title={JEBIN: analyzing gene co-expressions across multiple datasets by joint network embedding},
+  author={Wu, Guiying and Li, Xiangyu and Guo, Wenbo and Wei, Zheng and Hu, Tao and Shan, Yiran and Gu, Jin},
+  journal={Briefings in Bioinformatics},
+  year={2022}
+}
 ```
