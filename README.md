@@ -111,6 +111,10 @@ Guiying Wu (email: wuguiying_start@163.com)
   title={JEBIN: analyzing gene co-expressions across multiple datasets by joint network embedding},
   author={Wu, Guiying and Li, Xiangyu and Guo, Wenbo and Wei, Zheng and Hu, Tao and Shan, Yiran and Gu, Jin},
   journal={Briefings in Bioinformatics},
-  year={2022}
+  volume={23},
+  number={2},
+  pages={bbab603},
+  year={2022},
+  publisher={Oxford University Press}
 }
 ```
